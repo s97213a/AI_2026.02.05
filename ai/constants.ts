@@ -141,4 +141,5 @@ export const clinicData: Clinic[] = [
   { name: '項國威內科診所', district: '東區', services: '執行糞便篩檢及大腸鏡檢查' },
   { name: '民生診所', district: '六甲區', services: '執行糞便篩檢' },
   { name: '侯瑞合家醫科診所', district: '學甲區', services: '執行糞便篩檢及大腸鏡檢查' },
+  { name: '王覲瑜診所', district: '新化區', services: '執行糞便篩檢' },
 ];
