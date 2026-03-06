@@ -1,5 +1,5 @@
 {
   "name": "台南市愛腸篩活動院所",
   "description": "一個網頁應用程式，依區域顯示台南市愛腸篩活動院所名單，並提供快速連結至地圖和電話搜尋。",
-  "requestFramePermissions": []
+  "requestFramePermissions": ["geolocation"]
 }
