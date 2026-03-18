@@ -160,4 +160,9 @@ export const clinicData: Clinic[] = [
   { name: '周書澤內科診所', district: '新營區', services: '執行糞便篩檢' },
   { name: '杏仁診所', district: '新營區', services: '執行糞便篩檢' },
   { name: '王國欽內兒科診所', district: '新營區', services: '執行糞便篩檢' },
+  { name: '佳順診所', district: '下營區', services: '執行糞便篩檢' },
+  { name: '賴內小兒科診所', district: '下營區', services: '執行糞便篩檢' },
+  { name: '晨祐診所', district: '下營區', services: '執行糞便篩檢' },
+  { name: '瑞祥診所', district: '下營區', services: '執行糞便篩檢' },
+  { name: '黃清相診所', district: '佳里區', services: '執行糞便篩檢' },
 ];
