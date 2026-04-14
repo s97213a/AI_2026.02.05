@@ -73,7 +73,7 @@ export const clinicData: Clinic[] = [
   { name: '海佃診所', district: '安南區', services: '執行糞便篩檢' },
   { name: '林志哲診所', district: '安南區', services: '執行糞便篩檢' },
   { name: '石荃小兒科診所', district: '東區', services: '執行糞便篩檢' },
-  { name: '蔡佳玲婦產科診所', district: '中西區', services: '執行糞便篩檢' },
+  { name: '蔡佳玲婦產科科診所', district: '中西區', services: '執行糞便篩檢' },
   { name: '侯嘉修內科診所', district: '永康區', services: '執行糞便篩檢' },
   { name: '奇安內科診所', district: '安南區', services: '執行糞便篩檢' },
   { name: '善新診所', district: '善化區', services: '執行糞便篩檢' },
@@ -180,4 +180,8 @@ export const clinicData: Clinic[] = [
   { name: '幸福安診所', district: '東區', services: '執行糞便篩檢' },
   { name: '惠幼小兒科診所', district: '北區', services: '執行糞便篩檢' },
   { name: '海安小兒科診所', district: '北區', services: '執行糞便篩檢' },
+  { name: '日日新診所', district: '新化區', services: '執行糞便篩檢' },
+  { name: '膚仕美診所', district: '新化區', services: '執行糞便篩檢' },
+  { name: '君安診所', district: '南區', services: '執行糞便篩檢' },
+  { name: '美地診所', district: '將軍區', services: '執行糞便篩檢' },
 ];
