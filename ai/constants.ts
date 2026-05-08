@@ -189,4 +189,7 @@ export const clinicData: Clinic[] = [
   { name: '鄭立華小兒科診所', district: '新營區', services: '執行糞便潛血檢查' },
   { name: '蔡瑞頒診所', district: '柳營區', services: '執行糞便潛血檢查' },
   { name: '永隆診所', district: '北門區', services: '執行糞便潛血檢查' },
+  { name: '鍾宏銘皮膚科診所', district: '佳里區', services: '執行糞便潛血檢查' },
+  { name: '蔡清祥小兒科診所', district: '安南區', services: '執行糞便潛血檢查' },
+  { name: '郭文山家庭醫學婦產科診所', district: '安南區', services: '執行糞便潛血檢查' },
 ];
