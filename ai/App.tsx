@@ -74,7 +74,7 @@ const App: React.FC = () => {
               <h1 className="text-2xl md:text-3xl font-bold text-cyan-400 whitespace-nowrap">
                 <i className="fas fa-clinic-medical mr-2"></i>台南市愛腸篩活動院所
               </h1>
-              <p className="text-sm text-gray-400 mt-1">更新日期：115年7月7日</p>
+              <p className="text-sm text-gray-400 mt-1">更新日期：115年7月24日</p>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
               <div className="relative w-full sm:w-auto">

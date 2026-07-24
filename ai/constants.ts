@@ -224,4 +224,10 @@ export const clinicData: Clinic[] = [
   { name: '裕文診所', district: '歸仁區', services: '執行糞便潛血檢查' },
   { name: '志誠醫院', district: '北區', services: '執行糞便潛血檢查' },
   { name: '歐文傑外科診所', district: '永康區', services: '執行糞便潛血檢查及大腸鏡檢查' },
+  { name: '泰祐診所', district: '新營區', services: '執行糞便潛血檢查' },
+  { name: '佳宏診所', district: '新營區', services: '執行糞便潛血檢查' },
+  { name: '尚禾內科診所', district: '東山區', services: '執行糞便潛血檢查' },
+  { name: '健恆診所', district: '東區', services: '執行糞便潛血檢查及大腸鏡檢查' },
+  { name: '康時診所', district: '東區', services: '執行糞便潛血檢查及大腸鏡檢查' },
+  { name: '杏福內科診所', district: '東區', services: '執行糞便潛血檢查' },
 ];
