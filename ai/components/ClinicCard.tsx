@@ -8,8 +8,9 @@ interface ClinicCardProps {
 }
 
 export const ClinicCard: React.FC<ClinicCardProps> = ({ clinic }) => {
-  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`台南市 ${clinic.district} ${clinic.name}`)}`;
-  const phoneSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(`${clinic.name} 電話`)}`;
+  const cleanName = clinic.name.replace(/（.*?）|\(.*?\)/g, '').trim();
+  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`台南市 ${clinic.district} ${cleanName}`)}`;
+  const phoneSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(`${cleanName} 電話`)}`;
   const isColonoscopy = clinic.services.includes('大腸鏡');
 
   return (

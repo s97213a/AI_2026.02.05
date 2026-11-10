@@ -21,8 +21,10 @@ const App: React.FC = () => {
     let colonoscopy = 0;
 
     clinicData.forEach(clinic => {
-      const matchesSearch = clinic.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-        clinic.district.toLowerCase().includes(searchTerm.toLowerCase());
+      const term = searchTerm.toLowerCase();
+      const matchesSearch = clinic.name.toLowerCase().includes(term) || 
+        clinic.name.replace(/ㄦ/g, '而').toLowerCase().includes(term) ||
+        clinic.district.toLowerCase().includes(term);
       const matchesDistrict = !selectedDistrict || clinic.district === selectedDistrict;
 
       if (matchesSearch && matchesDistrict) {
@@ -38,8 +40,10 @@ const App: React.FC = () => {
 
   const groupedClinics = useMemo(() => {
     const filteredData = clinicData.filter(clinic => {
-      const matchesSearch = clinic.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-        clinic.district.toLowerCase().includes(searchTerm.toLowerCase());
+      const term = searchTerm.toLowerCase();
+      const matchesSearch = clinic.name.toLowerCase().includes(term) || 
+        clinic.name.replace(/ㄦ/g, '而').toLowerCase().includes(term) ||
+        clinic.district.toLowerCase().includes(term);
       
       const matchesDistrict = !selectedDistrict || clinic.district === selectedDistrict;
 
@@ -74,7 +78,7 @@ const App: React.FC = () => {
               <h1 className="text-2xl md:text-3xl font-bold text-cyan-400 whitespace-nowrap">
                 <i className="fas fa-clinic-medical mr-2"></i>台南市愛腸篩活動院所
               </h1>
-              <p className="text-sm text-gray-400 mt-1">更新日期：115年10月19日</p>
+              <p className="text-sm text-gray-400 mt-1">更新日期：115年11月10日</p>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
               <div className="relative w-full sm:w-auto">
